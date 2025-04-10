@@ -1,12 +1,28 @@
-# React + Vite
+# 🌐 React Router Navigation App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple **React Single Page Application (SPA)** that demonstrates core concepts of **React Router**, including:
 
-Currently, two official plugins are available:
+- Page navigation with `<Link>`
+- Dynamic routes using URL parameters
+- Programmatic navigation with `useNavigate`
+- A 404 "Not Found" route for unmatched URLs
+- Clean, styled layout for a smooth user experience
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🔗 **Navigation Bar** to switch between pages without reloading
+- 📄 **Pages**: Home, About, Contact, User Profile
+- 📦 **Dynamic Route**: `/user/:id` shows user-specific profile
+- 🚫 **404 Handling**: Custom message for unmatched routes
+- 🧭 **Programmatic Navigation** from Contact page
+
+---
+
+# UI Preview
+![UserCard Screenshot](public/screenshot.png)
+
+
+---
