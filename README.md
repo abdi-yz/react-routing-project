@@ -22,7 +22,7 @@ This project is a simple **React Single Page Application (SPA)** that demonstrat
 ---
 
 # UI Preview
-![UserCard Screenshot](public/screenshot.png)
+![Screenshot](public/Screenshot.png)
 
 
 ---
